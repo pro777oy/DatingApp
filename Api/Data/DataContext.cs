@@ -1,6 +1,9 @@
-﻿namespace Api.Data;
+﻿using Api.Models;
+using Microsoft.EntityFrameworkCore;
 
-public class DataContext
+namespace Api.Data;
+
+public class DataContext(DbContextOptions options) : DbContext(options)
 {
-    
+    public DbSet<AppUser> Users { get; set; }
 }
