@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qZJxgMrLPdg=",
+  "dgSpecHash": "1+H9xr2oD0g=",
   "success": true,
-  "projectFilePath": "D:\\Prottoy\\DatingApp\\api\\Api.csproj",
+  "projectFilePath": "D:\\Prottoy\\DatingApp\\Api\\Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\prott\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\prott\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",
@@ -100,7 +100,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Api depends on System.IdentityModel.Tokens.Jwt (>= 8.0.4) but System.IdentityModel.Tokens.Jwt 8.0.4 was not found. An approximate best match of System.IdentityModel.Tokens.Jwt 8.1.0 was resolved.",
+      "message": "Api depends on System.IdentityModel.Tokens.Jwt (>= 8.0.4) but System.IdentityModel.Tokens.Jwt 8.0.4 was not found. System.IdentityModel.Tokens.Jwt 8.1.0 was resolved instead.",
       "libraryId": "System.IdentityModel.Tokens.Jwt",
       "targetGraphs": [
         "net8.0"

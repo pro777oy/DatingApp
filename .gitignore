@@ -3,6 +3,9 @@
 ##
 ## Get latest from `dotnet new gitignore`
 
+# Ignore JetBrains Rider's settings
+.idea/
+
 # dotenv files
 .env
 
@@ -482,6 +485,8 @@ $RECYCLE.BIN/
 
 # Vim temporary swap files
 *.swp
-m y f i l e . t x t  
- a p p s e t t i n g s . j s o n  
+m y f i l e . t x t 
+ 
+ a p p s e t t i n g s . j s o n 
+ 
  
