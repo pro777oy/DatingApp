@@ -1,9 +1,16 @@
-﻿namespace Api.Models;
+﻿using System.ComponentModel.DataAnnotations;
+
+namespace Api.Models;
 
 public class AppUser
 {
     
-    public int Id { get; set; }
+    public int Id { get; init; }
     
-    public required string UserName { get; set; }
+    [MaxLength(255)]
+    public required string UserName { get; init; }
+    
+    public required byte[] PasswordHash { get; init; }
+    
+    public required byte[] PasswordSalt { get; init; }
 }
